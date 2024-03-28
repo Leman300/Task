@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  &-track {
+    background: #a695f5;
+  }
+  &-thumb {
+    background: #7a63a0;
+    border-radius: 4px;
+  }
+}
+
+.cinzel-font {
+  font-family: "Cinzel", sans-serif;
+}
+
+.text-shadow-hover {
+  transition: text-shadow 0.3s;
+
+  &:hover {
+    text-shadow: 0 0 15px #47378f;
+  }
+}
