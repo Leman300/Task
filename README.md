@@ -1,7 +1,5 @@
 # StackOverflow Tag Browser
 
-![StackOverflow Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stack_Overflow_logo.svg/320px-Stack_Overflow_logo.svg.png)
-
 **StackOverflow Tag Browser** is a tag browsing application that allows you to browse and sort popular tags from StackOverflow.
 
 ## Features:
@@ -30,8 +28,8 @@
 
 ## Screenshots:
 
-![With API](assets/header.jpg)
-![Without API](assets/noapi.jpg)
+![With API](./src/assets/header.jpg)
+![Without API](./src/assets/noapi.jpg)
 
 ## Author:
 
